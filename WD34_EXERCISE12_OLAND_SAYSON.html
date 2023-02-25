@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="https://fontawesome.com/v6/docs/web/setup/get-started">
     <title>RAC services</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body{
             background-color:black;
         }
@@ -39,22 +44,22 @@
             <div class="collapse navbar-collapse" id="thisIsTheMenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="http://127.0.0.1:5500/WD34_EXERCISE_12/WD34_EXERCISE12_OLAND_SAYSON.html#" class="nav-link active">
+                        <a href="#" class="nav-link active">
                             Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="http://127.0.0.1:5500/WD34_EXERCISE_12/about_us.html" class="nav-link">
+                        <a href="http://127.0.0.1:5500/about_us.html" class="nav-link">
                             About Us
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="http://127.0.0.1:5500/WD34_EXERCISE_12/services.html#" class="nav-link">
+                        <a href="http://127.0.0.1:5500/services.html" class="nav-link">
                             Services
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="http://127.0.0.1:5500/WD34_EXERCISE_12/contact_us.html" class="nav-link">
+                        <a href="http://127.0.0.1:5500/contact_us.html" class="nav-link">
                             Contact Us
                         </a>
                     </li>
@@ -72,127 +77,117 @@
     <h1 class="container text-center text-white">Sayson's Refrigeration and Air-con Services</h1>
     <br>
     <div class="container-fluid d-flex mb-5 ">
-        <aside class="container col-1 fa-2x g-5 m-1 ">
-            <div class="row">
-                <div><a href="#"><i class="fa-solid fa-user"></i></a></div>
-                <div><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></div>
-                <div><a href="#"><i class="fa-brands fa-facebook"></i></a></div>
-                <div><a href="#"><i class="fa-brands fa-twitter"></i></a></div>
-                <div><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
-                <div><a href="#"><i class="bi bi-whatsapp"></i></a></div>
+        <div class="container w-50">
+            <div class="carousel slide" data-bs-ride="carousel" id="controllMeCarousel">
+                <div class="carousel-indicators">
+                    <button data-bs-target="#controllMeCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button data-bs-target="#controllMeCarousel" data-bs-slide-to="1"></button>
+                    <button data-bs-target="#controllMeCarousel" data-bs-slide-to="2"></button>
+                    <button data-bs-target="#controllMeCarousel" data-bs-slide-to="3"></button>
+                    <button data-bs-target="#controllMeCarousel" data-bs-slide-to="4"></button>
+                    <button data-bs-target="#controllMeCarousel" data-bs-slide-to="5"></button>
+                    <button data-bs-target="#controllMeCarousel" data-bs-slide-to="6"></button>
+                    <button data-bs-target="#controllMeCarousel" data-bs-slide-to="7"></button>
+                    <button data-bs-target="#controllMeCarousel" data-bs-slide-to="8"></button>
+                    <button data-bs-target="#controllMeCarousel" data-bs-slide-to="9"></button>
+                    <button data-bs-target="#controllMeCarousel" data-bs-slide-to="10"></button>
+                    <button data-bs-target="#controllMeCarousel" data-bs-slide-to="11"></button>
+                    <button data-bs-target="#controllMeCarousel" data-bs-slide-to="12"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/pic_1.jpg" class="d-block w-100 rounded">
+                        <div class="carousel-caption d-none d-sm-block">
+                        <h3 class="text-white">Good knowledge of work</h3>
+                            <p class="text-white">More on practice is the key to have a good knowledge, accuracy and competency.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/pic_2.jpg" class="d-block w-100 rounded">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h3 class="text-white">Quality of work</h3>
+                            <p class="text-white">A good skills and understanding of the work is the key to a good quality output of work.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/pic_3.jpg" class="d-block w-100 rounded">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h3 class="text-white">Honest to customer</h3>
+                            <p class="text-white">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/pic_4.jpg" class="d-block w-100 rounded">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h3 class="text-white">Honest to customer</h3>
+                            <p class="text-white">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/pic_5.jpg" class="d-block w-100 rounded">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h3 class="text-white">Honest to customer</h3>
+                            <p class="text-white">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/pic_6.jpg" class="d-block w-100 rounded">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h3 class="text-white">Honest to customer</h3>
+                            <p class="text-white">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/pic_7.jpg" class="d-block w-100 rounded">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h3 class="text-white">Honest to customer</h3>
+                            <p class="text-white">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/pic_8.jpg" class="d-block w-100 rounded">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h3 class="text-white">Honest to customer</h3>
+                            <p class="text-white">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/pic_9.jpg" class="d-block w-100 rounded">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h3 class="text-white">Honest to customer</h3>
+                            <p class="text-white">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/pic_10.jpg" class="d-block w-100 rounded">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h3 class="text-white">Honest to customer</h3>
+                            <p class="text-white">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/pic_11.jpg" class="d-block w-100 rounded">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h3 class="text-white">Honest to customer</h3>
+                            <p class="text-white">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/pic_12.jpg" class="d-block w-100 rounded">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h3 class="text-white">Honest to customer</h3>
+                            <p class="text-white">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
+                        </div>
+                    </div>
+                </div>
+            <button class="carousel-control-prev" data-bs-target="#controllMeCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#controllMeCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
             </div>
-        </aside>
-    <div class="container col-11 w-50">
-        <div class="carousel slide" data-bs-ride="carousel" id="controllMeCarousel">
-            <div class="carousel-indicators">
-                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="0" class="active"></button>
-                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="1"></button>
-                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="2"></button>
-                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="3"></button>
-                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="4"></button>
-                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="5"></button>
-                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="6"></button>
-                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="7"></button>
-                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="8"></button>
-                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="9"></button>
-                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="10"></button>
-                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="11"></button>
-                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="12"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/pic_1.jpg" class="d-block w-100">
-                    <div class="carousel-caption d-none d-sm-block">
-                    <h3 class="text-danger">Good knowledge of work</h3>
-                        <p class="text-danger">More on practice is the key to have a good knowledge, accuracy and competency.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/pic_2.jpg" class="d-block w-100">
-                    <div class="carousel-caption d-none d-sm-block">
-                        <h3 class="text-warning">Quality of work</h3>
-                        <p class="text-warning">A good skills and understanding of the work is the key to a good quality output of work.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/pic_3.jpg" class="d-block w-100">
-                    <div class="carousel-caption d-none d-sm-block">
-                        <h3 class="text-warning">Honest to customer</h3>
-                        <p class="text-warning">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/pic_4.jpg" class="d-block w-100">
-                    <div class="carousel-caption d-none d-sm-block">
-                        <h3 class="text-warning">Honest to customer</h3>
-                        <p class="text-warning">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/pic_5.jpg" class="d-block w-100">
-                    <div class="carousel-caption d-none d-sm-block">
-                        <h3 class="text-warning">Honest to customer</h3>
-                        <p class="text-warning">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/pic_6.jpg" class="d-block w-100">
-                    <div class="carousel-caption d-none d-sm-block">
-                        <h3 class="text-warning">Honest to customer</h3>
-                        <p class="text-warning">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/pic_7.jpg" class="d-block w-100">
-                    <div class="carousel-caption d-none d-sm-block">
-                        <h3 class="text-warning">Honest to customer</h3>
-                        <p class="text-warning">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/pic_8.jpg" class="d-block w-100">
-                    <div class="carousel-caption d-none d-sm-block">
-                        <h3 class="text-warning">Honest to customer</h3>
-                        <p class="text-warning">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/pic_9.jpg" class="d-block w-100">
-                    <div class="carousel-caption d-none d-sm-block">
-                        <h3 class="text-warning">Honest to customer</h3>
-                        <p class="text-warning">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/pic_10.jpg" class="d-block w-100">
-                    <div class="carousel-caption d-none d-sm-block">
-                        <h3 class="text-warning">Honest to customer</h3>
-                        <p class="text-warning">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/pic_11.jpg" class="d-block w-100">
-                    <div class="carousel-caption d-none d-sm-block">
-                        <h3 class="text-warning">Honest to customer</h3>
-                        <p class="text-warning">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/pic_12.jpg" class="d-block w-100">
-                    <div class="carousel-caption d-none d-sm-block">
-                        <h3 class="text-warning">Honest to customer</h3>
-                        <p class="text-warning">Sincerity, passionate, real, authentic, open, sharing are some characteristics of an honest employee. </p>
-                    </div>
-                </div>
-            </div>
-        <button class="carousel-control-prev" data-bs-target="#controllMeCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" data-bs-target="#controllMeCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
         </div>
-    </div>
     </div>
     <br>
     <br>
@@ -202,21 +197,21 @@
                 <br><br>
                 <h3 class="text-white d-flex justify-content-left">Select appliance below</h3>
                 <br>
-                <button class="btn btn-outline-primary"><a href="http://127.0.0.1:5500/WD34_EXERCISE_12/contact_us.html">Refrigerator</a></button>
+                <button class="btn btn-outline-success"><a href="http://127.0.0.1:5500/WD34_EXERCISE_12/contact_us.html">Refrigerator</a></button>
                 <br><br>
-                <button class="btn btn-outline-dark"><a href="http://127.0.0.1:5500/WD34_EXERCISE_12/contact_us.html">Freezer</a></button>
+                <button class="btn btn-outline-success"><a href="http://127.0.0.1:5500/WD34_EXERCISE_12/contact_us.html">Freezer</a></button>
                 <br><br>
                 <button class="btn btn-outline-success"><a href="http://127.0.0.1:5500/WD34_EXERCISE_12/contact_us.html">Air-con</a></button>
                 <br><br>
-                <button class="btn btn-outline-warning"><a href="http://127.0.0.1:5500/WD34_EXERCISE_12/contact_us.html">Car air-con</a></button>
+                <button class="btn btn-outline-success"><a href="http://127.0.0.1:5500/WD34_EXERCISE_12/contact_us.html">Car air-con</a></button>
                 <br><br>
-                <button class="btn btn-outline-danger"><a href="http://127.0.0.1:5500/WD34_EXERCISE_12/contact_us.html">Installation</a></button>
+                <button class="btn btn-outline-success"><a href="http://127.0.0.1:5500/WD34_EXERCISE_12/contact_us.html">Installation</a></button>
                 <br><br>
-                <button class="btn btn-outline-secondary"><a href="http://127.0.0.1:5500/WD34_EXERCISE_12/contact_us.html">Washing machine</a></button>
+                <button class="btn btn-outline-success"><a href="http://127.0.0.1:5500/WD34_EXERCISE_12/contact_us.html">Washing machine</a></button>
                 <br><br>
-                <button class="btn btn-outline-light"><a href="http://127.0.0.1:5500/WD34_EXERCISE_12/contact_us.html">Gas range</a></button>
+                <button class="btn btn-outline-success"><a href="http://127.0.0.1:5500/WD34_EXERCISE_12/contact_us.html">Gas range</a></button>
                 <br><br>
-                <button class="btn btn-outline-info"><a href="http://127.0.0.1:5500/WD34_EXERCISE_12/contact_us.html">Microwave oven</a></button>
+                <button class="btn btn-outline-success"><a href="http://127.0.0.1:5500/WD34_EXERCISE_12/contact_us.html">Microwave oven</a></button>
                 <br><br>
                 <div class="input-group">
                     <label class="input-group-text">Search box</label>
@@ -226,7 +221,7 @@
                     </button>
                 </div>
             </div>
-            <div class="col-7">
+            <div class="col-sm-7">
                 <h1 class="text-white d-flex justify-content-center">The Team</h1>
                 <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt laudantium dolore doloribus unde, dolores aut quod quia eum pariatur suscipit in magnam, qui nihil velit sit odio asperiores. Consectetur, quos!</p>
                 <img src="img/staff.jpg" class="w-100 img-thumbnail border-danger">
@@ -235,15 +230,18 @@
     </div>
 <br>
 <br>
-<div class="container d-flex mt-2 justify-content-center p-2">
-    <a href="https://facebook.com/100083838690132">Go to our facebook page<i class="fa-brands fa-facebook fa-2x"></i></a> 
+<div class="container d-flex col-sm fa-1x align-items-center justify-content-center">
+    <div><a href="#"><i class="fa-solid fa-user g-1 m-1"></i></a></div>
+    <div><a href="https://facebook.com/100083838690132"><i class="fa-brands fa-facebook g-1 m-1"></i></a></div>
+    <div><a href="#"><i class="fa-brands fa-twitter g-1 m-1"></i></a></div>
+    <div><a href="#"><i class="fa-brands fa-instagram g-1 m-1"></i></a></div>
 </div>
 </body>
-<footer>
-        <h6>Landline : 520-5204</h6>
-        <h6>Globe : 0945 123 4567</h6>
-        <h6>Smart : 0920 123 4567</h6>
-    <h4>All Rights Reserved</h4>
+<footer class="text-white">
+    <h6>Landline : 520-5204</h6>
+    <h6>Globe : 0945 123 4567</h6>
+    <h6>Smart : 0920 123 4567</h6>
+    <h5>All Rights Reserved</h5>
 </footer>
 <br>
 <!--<script src="js/bootstrap.js"></script>-->
